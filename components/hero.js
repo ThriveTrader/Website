@@ -49,8 +49,8 @@ const Hero = () => {
         <div className="flex items-center justify-center w-full lg:w-1/2">
           <div className="">
             <Image
-              src={"/Main.svg"}
-              width="900"
+              src={"/Main.png"}
+              width="300"
               height="900"
               className={"object-cover"}
               alt="Hero Illustration"
