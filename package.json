@@ -20,6 +20,8 @@
   "author": "Surjith S M",
   "license": "ISC",
   "dependencies": {
+    "@clerk/clerk-react": "^4.30.3",
+    "@clerk/nextjs": "^4.29.3",
     "@emotion/css": "^11.10.6",
     "@emotion/react": "^11.10.6",
     "@emotion/server": "^11.10.0",
@@ -27,11 +29,14 @@
     "@headlessui/react": "^1.7.14",
     "@heroicons/react": "^2.0.17",
     "@tailwindcss/aspect-ratio": "^0.4.2",
+    "convex": "^1.8.0",
     "next": "^13.5.6",
     "next-themes": "^0.2.1",
     "react": "^18",
     "react-dom": "^18",
-    "react-hook-form": "^7.43.9"
+    "react-hook-form": "^7.43.9",
+    "react-icon": "^1.0.0",
+    "react-spinners": "^0.13.8"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
