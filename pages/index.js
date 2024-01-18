@@ -12,6 +12,8 @@ import Cta from "../components/cta";
 import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
 import Contact from "../components/Contact";
+import Vid from "../components/Vid";
+import ContactS from "../components/ContactS";
 
 const Home = () => {
   return (
@@ -27,6 +29,20 @@ const Home = () => {
 
       <Navbar />
       <Hero />
+      <SectionTitle
+        pretitle="Thrive Trading"
+        title="Be a Professional Trader with Me">
+      </SectionTitle>
+      <Video />
+      <SectionTitle
+        pretitle=""
+        title="RESULTS">
+      </SectionTitle>
+      <Video />
+      <Video />
+      <SectionTitle
+        pretitle=""
+        title="CLIENT TESTIMONIALS"></SectionTitle>
       {/*
       <SectionTitle
         pretitle="Nextly Benefits"
@@ -34,26 +50,20 @@ const Home = () => {
         Nextly is a free landing page & marketing website template for startups
         and indie projects. Its built with Next.js & TailwindCSS. And its
         completely open-source.
-  </SectionTitle> */}
+        </SectionTitle> 
       <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
-      <SectionTitle
-        pretitle="Watch a video"
-        title="Learn how to fullfil your needs">
-        This section is to highlight a promo or demo video of your product.
-        Analysts says a landing page with video has 3% more conversion rate. So,
-        don&apos;t forget to add one. Just like this.
-      </SectionTitle>
-      <Video />
-      <Video />
+      <Benefits imgPos="right" data={benefitTwo} />*/}
+      <Vid />
       <Video />
       <SectionTitle
-        pretitle="Testimonials"
-        title="Here's what our customers said">
-        Testimonails is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+        pretitle=""
+        title="JOIN MY TELEGRAM">
       </SectionTitle>
       <Contact />
+      <SectionTitle
+        pretitle=""
+        title="FOLLOW MY PAGES"></SectionTitle>
+        <ContactS />
        {/*
       <Testimonials /> 
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">

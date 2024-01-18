@@ -50,8 +50,8 @@ const Hero = () => {
           <div className="">
             <Image
               src={"/Main.svg"}
-              width="800"
-              height="800"
+              width="900"
+              height="900"
               className={"object-cover"}
               alt="Hero Illustration"
               loading="eager"
@@ -62,8 +62,6 @@ const Hero = () => {
       <Container>
         <div className="flex flex-col justify-center">
           <div className="text-xl text-center text-white dark:text-white">
-            Trusted by <span className="text-white">2000+</span>{" "}
-            customers worldwide
           </div>
 {/*
           <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">

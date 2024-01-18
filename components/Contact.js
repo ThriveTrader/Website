@@ -3,7 +3,6 @@ import Container from "./container";
 import Link from "next/link";
 import Image from "next/image";
 
-
 const Twitter = ({ size = 50 }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -25,6 +24,8 @@ const Facebook = ({ size = 50 }) => (
     <path d="M24 12.07C24 5.41 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.04V9.41c0-3.02 1.8-4.7 4.54-4.7 1.31 0 2.68.24 2.68.24v2.97h-1.5c-1.5 0-1.96.93-1.96 1.89v2.26h3.32l-.53 3.5h-2.8V24C19.62 23.1 24 18.1 24 12.07" />
   </svg>
 );
+
+
 const Instagram = ({ size = 50 }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -49,40 +50,14 @@ const Linkedin = ({ size = 50 }) => (
 
 const Contact = (props) => {
   return (
-    <div className="flex-center items-center full-height">
-      <div className="text-center text-white">
-        <div>Follow us</div>
-        <div className="flex scale-2 justify-center mt-5 items-center space-x-5 text-white dark:text-white">
-          <a
-            href="https://twitter.com/web3templates"
-            target="_blank"
-            rel="noopener"
-          >
-            <span className="sr-only">Twitter</span>
-            <Twitter />
-          </a>
-          <a
-            href="https://facebook.com/web3templates"
-            target="_blank"
-            rel="noopener"
-          >
-            <span className="sr-only">Facebook</span>
-            <Facebook />
-          </a>
-          <a
-            href="https://instagram.com/web3templates"
-            target="_blank"
-            rel="noopener"
-          >
-            <span className="sr-only">Instagram</span>
-            <Instagram />
-          </a>
-          <a href="https://linkedin.com/" target="_blank" rel="noopener">
-            <span className="sr-only">Linkedin</span>
-            <Linkedin />
-          </a>
-        </div>
-      </div>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '50vh' }}>
+      <a href="#" style={{ display: 'inline-block', textAlign: 'center' }}>
+        <img
+          src="/Telegram.png" // Replace with the actual URL of your image
+          alt="Button Image"
+          style={{ width: '400px' }} // Adjust the width and height as needed
+        />
+      </a>
     </div>
   );
 };
